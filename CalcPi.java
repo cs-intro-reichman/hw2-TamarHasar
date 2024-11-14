@@ -20,7 +20,7 @@ public class CalcPi {
 		sum = sum * 4; 
 
 		System.out.printf("Pi according to Java: %.15f\n", Math.PI);
-        System.out.printf("Pi,  approximated: % .15f\n", sum);
+        System.out.printf("Pi,  approximated: % 16.5f\n", sum);
 	}
 }
 
