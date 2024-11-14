@@ -13,12 +13,12 @@ public class Cheers {
                 }
 
                 else {
-                        System.out.println("Give me a "+ chantUpperCase.charAt(i) +
+                        System.out.println("Give me a  "+ chantUpperCase.charAt(i) +
                                                 ": " + chantUpperCase.charAt(i) + "!");
                 }
             }
             System.out.println("What does that spell?");
-            
+
             for (int i = 0; i < numTimes; i ++ ){
                 System.out.println(chantUpperCase + "!!!");
             }
