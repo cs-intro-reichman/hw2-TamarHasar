@@ -14,7 +14,8 @@ public class CalcPi {
             }
             
             diviser += 2.0; 
-            sign = !sign; 
+            sign = !sign;
+		}
 
 		sum = sum * 4; 
 
@@ -22,3 +23,4 @@ public class CalcPi {
 		System.out.println("Pi,  approximated: " + sum);
 	}
 }
+
