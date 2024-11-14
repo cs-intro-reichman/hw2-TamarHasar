@@ -36,12 +36,12 @@ public class Collatz {
 				firstSeedCount += 1;
 			}
 			
-			System.out.println("Every one of the " + numSequences +" hailstone sequences reached 1");
+			System.out.println("Every one of the first " + numSequences +" hailstone sequences reached 1");
 
 		}
 
 		else if (mode.equals("c")){
-			System.out.println("Every one of the " + numSequences +" hailstone sequences reached 1");
+			System.out.println("Every one of the first " + numSequences +" hailstone sequences reached 1");
 		}
 	}
 }

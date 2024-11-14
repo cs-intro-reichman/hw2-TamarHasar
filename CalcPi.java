@@ -2,27 +2,19 @@
 public class CalcPi {
 	public static void main(String [] args) { 
 		int numOfTerms = Integer.parseInt(args[0]);
-	    double sum = 1;
+	    double sum = 1.0;
 		double diviser = 3.0;
-		boolean sign = true; //use false for minus - and true for +
+		boolean sign = false; //use false for minus - and true for +
 		
-		if (numOfTerms >= 1){
-			sum = sum - ((float)1 / diviser);
-		}
-
-		for(int i = 2; i < numOfTerms; i ++) {
-			diviser += 2.0;
-
-			if (sign) {
-				sum = sum + ((float)1.0 / diviser);
-				sign = false;
-			}
-
-			else {
-				sum = sum - ((float)1.0 / diviser);
-				sign = true; 
-			}
-		}
+		for (int i = 1; i < numOfTerms; i++) {
+            if (sign) {
+                sum = sum + (1.0 / diviser);  
+            } else {
+                sum = sum - (1.0 / diviser);  
+            }
+            
+            diviser += 2.0; 
+            sign = !sign; 
 
 		sum = sum * 4; 
 
