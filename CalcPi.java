@@ -19,8 +19,8 @@ public class CalcPi {
 
 		sum = sum * 4; 
 
-		System.out.printf("Pi according to Java: \n", Math.PI);
-        System.out.printf("Pi,  approximated: \n", sum);
+		System.out.printf("Pi according to Java: ", Math.PI);
+        System.out.printf("Pi,  approximated: ", sum);
 	}
 }
 
